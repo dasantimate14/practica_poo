@@ -58,10 +58,10 @@ Este proyecto implementa dos problemas prácticos de POO:
 ```
 sistema-poo-php/
 │
-├── FigurasGeometricas.php    # Clases del Problema 1
-├── figuras_gui.php            # Interfaz Problema 1
-├── SistemasSaludos.php        # Clases del Problema 2
-├── saludos_gui.php            # Interfaz Problema 2
+├── Figura.php    # Clases del Problema 1
+├── index.php            # Interfaz Problema 1
+├── SaludoIdioma.php        # Clases del Problema 2
+├── SistemaSaludos.php            # Interfaz Problema 2
 └── README.md                  # Documentación
 ```
 
@@ -185,14 +185,6 @@ Clase base para todos los tipos de saludo.
 Patrón Factory para crear saludos.
 - **Método estático**: `crearSaludo($idioma, $nombreUsuario)`
 
-## 🎨 Capturas de Pantalla
-
-### Problema 1: Figuras Geométricas
-![Figuras](https://via.placeholder.com/800x400/667eea/ffffff?text=Sistema+de+Figuras+Geometricas)
-
-### Problema 2: Sistema de Saludos
-![Saludos](https://via.placeholder.com/800x400/f093fb/ffffff?text=Sistema+de+Saludos)
-
 ## 🧪 Pruebas
 
 ### Ejecutar ejemplos de prueba
@@ -225,40 +217,7 @@ Ejecutar:
 php test.php
 ```
 
-## 🤝 Contribuciones
-
-Las contribuciones son bienvenidas. Para contribuir:
-
-1. Fork el proyecto
-2. Crea una rama para tu feature (`git checkout -b feature/NuevaCaracteristica`)
-3. Commit tus cambios (`git commit -m 'Agregar nueva característica'`)
-4. Push a la rama (`git push origin feature/NuevaCaracteristica`)
-5. Abre un Pull Request
-
 ## 📝 Licencia
 
 Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más detalles.
 
-## 👨‍💻 Autor
-
-**Tu Nombre**
-- GitHub: [@tu-usuario](https://github.com/tu-usuario)
-- Email: tu-email@ejemplo.com
-
-## 🙏 Agradecimientos
-
-- ING. IRINA FONG - Por las prácticas de POO
-- Comunidad PHP - Por la documentación y recursos
-- Contribuidores del proyecto
-
-## 📞 Soporte
-
-Si tienes alguna pregunta o problema:
-- Abre un [Issue](https://github.com/tu-usuario/sistema-poo-php/issues)
-- Envía un email a tu-email@ejemplo.com
-
----
-
-⭐ Si este proyecto te fue útil, considera darle una estrella en GitHub
-
-**Desarrollado con ❤️ usando PHP**
